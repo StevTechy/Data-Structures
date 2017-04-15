@@ -8,6 +8,14 @@ namespace Data_Structures.Testing
 {
     public class Tester
     {
+        public void TestLinkedList()
+        {
+            var ll = new LinkedList();
+
+            ll.Append(1);
+            ll.Append(2);
+            ll.Append(3);
+        }
         public void TestQueue()
         {
             var queue = new Queue();

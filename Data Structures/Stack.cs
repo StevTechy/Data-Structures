@@ -38,7 +38,7 @@ namespace Data_Structures
             //Set the nodes Next field to the current top. This node becomes the new top
             node.Next = top;
 
-            //Set this node to the new top, the Next field has the old top with its Next values
+            //Set this node to the new top, the Next field of the new top has the old top with its Next values
             top = node;
         }
 

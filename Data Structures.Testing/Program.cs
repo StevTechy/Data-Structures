@@ -6,7 +6,7 @@ namespace Data_Structures.Testing
     {
         static void Main(string[] args)
         {
-            new Tester().TestStack();
+            new Tester().TestQueue();
 
             Console.ReadKey();
         }

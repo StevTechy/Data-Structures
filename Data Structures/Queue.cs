@@ -37,14 +37,15 @@ namespace Data_Structures
 
             if (tail != null)
             {
+                //Updating Next property of object which head also references
                 tail.Next = node;
             }
             
+            //Updating tail to be latest added node
             tail = node;
 
             if (head == null)
             {
-                //As tail is a permanent variable within this class, head will pick up all of tails child properties (.Next) whenever they are added
                 head = tail;
             }
         }
